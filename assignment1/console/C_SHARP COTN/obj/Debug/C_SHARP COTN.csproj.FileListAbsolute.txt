@@ -1,0 +1,7 @@
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\bin\Debug\C_SHARP COTN.exe.config
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\bin\Debug\C_SHARP COTN.exe
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\bin\Debug\C_SHARP COTN.pdb
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\obj\Debug\C_SHARP COTN.csproj.AssemblyReference.cache
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\obj\Debug\C_SHARP COTN.csproj.CoreCompileInputs.cache
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\obj\Debug\C_SHARP COTN.exe
+C:\Users\AXFD\Desktop\C_S_CONT\C_SHARP COTN\obj\Debug\C_SHARP COTN.pdb

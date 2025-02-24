@@ -1,0 +1,10 @@
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\bin\Debug\C_SHARP.exe.config
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\bin\Debug\C_SHARP.exe
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\bin\Debug\C_SHARP.pdb
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.csproj.AssemblyReference.cache
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.Form1.resources
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.Properties.Resources.resources
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.csproj.GenerateResource.cache
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.csproj.CoreCompileInputs.cache
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.exe
+C:\Users\AXFD\Desktop\C_SHARP\C_SHARP\obj\Debug\C_SHARP.pdb
