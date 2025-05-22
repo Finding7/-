@@ -1,0 +1,116 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CustomerMaster.master.cs" Inherits="OnlineSupermarketTuto.Views.Customer.CustomerMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style>
+        *{
+            font-family:STXihei;
+        }
+        #left{
+            color:white;
+            height:810px;
+            background-color:teal;
+        }
+        label{
+            color:white;
+        }
+        .nav-item {
+            margin-bottom: 15px;
+        }
+        .nav-item img {
+            height: 40px; 
+            width: 40px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        .nav-item a {
+            text-decoration: none;
+        }
+        .nav-item label {
+            cursor: pointer;
+            vertical-align: middle;
+        }
+    </style>
+    <link href="../../Assets/Lib/css/bootstrap.min.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2" id="left">
+                <div style="height:120px">
+                    <img src="../../Assets/Images/shopping-cart (1).png" id="logo" style="height: 60px; width: 60px" />
+                </div>
+                <div class="p-2">
+                
+                <!-- 个人信息 -->
+                <div class="nav-item">
+                    <img src="../../Assets/Images/team.png" />
+                    <a href="UserProfile.aspx"><label>个人信息</label></a>
+                </div>
+                
+                <div class="nav-item">
+                    <img src="../../Assets/Images/bill.png" />
+                    <a href="Billing.aspx"><label>订单结算</label></a>
+                </div>
+
+                <!--新增购物车界面-->
+               <div class="nav-item">
+                 <img src="../../Assets/Images/shopping-cart (1).png" />
+                 <a href="ShoppingCart.aspx"><label>购物车</label></a>
+               </div>
+
+                    <!--新增猜你喜欢界面-->
+               <div class="nav-item">
+                <img src="../../Assets/Images/heart.png" />
+                <a href="Favorite.aspx"><label>猜你喜欢</label></a>
+               </div>
+
+                <div class="mb-3">
+                    <!--
+                    <img src="../../Assets/Images/supplier.png" style="height: 40px; width: 40px"/>
+                    <a href="Manufactors.aspx"><label>出版社</label></a>
+                    -->
+                </div>
+                <div class="mb-3">
+                    <!--
+                    <img src="../../Assets/Images/customer-feedback.png" style="height: 40px; width: 40px"/>
+                    <a href="Customers.aspx"><label>用户</label></a>
+                        -->
+                </div>
+                <div class="mb-3">
+                    <!--
+                    <img src="../../Assets/Images/dashboard.png" style="height: 40px; width: 40px"/>
+                    <a href="Categories.aspx"><label>类目</label></a>
+                        -->
+                </div>
+                    <div style="height:400px">
+
+                    </div>
+                <div class="nav-item">
+                    <img src="../../Assets/Images/logout (2).png" />
+                    <a href="../Login.aspx"><label>退出</label></a>
+                </div>
+                </div>
+                
+                    </div>
+                    <div class="col-10">
+                        <form id="form1" runat="server">
+                          <div>
+                                <asp:ContentPlaceHolder ID="MyContent" runat="server">
+
+                                 </asp:ContentPlaceHolder>
+                            </div>
+                        </form>
+                    </div>
+   
+        </div>
+    </div>
+    
+</body>
+</html>    
